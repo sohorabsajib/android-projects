@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello i am here"
+        android:textSize="14sp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        />
+    <Button
+        android:id="@+id/btn"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textAllCaps="false"
+        android:textSize="16dp"/>
+
+
+    <RadioButton
+        android:id="@+id/maleRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="male"
+        android:checked="true"
+        />
+
+    <RadioButton
+        android:id="@+id/femaleRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="female"
+        />
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/download"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/tv2"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/lorem"/>
+
+
+
+
+
+</LinearLayout>

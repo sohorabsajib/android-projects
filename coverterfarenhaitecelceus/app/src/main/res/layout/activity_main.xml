@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#04A209"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/amountET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter degree"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:textColor="#ffffff"
+        android:textColorHint="#FFEB3B">
+
+
+
+    </EditText>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/celciusToFerenhiteRB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="celcius to ferenhite"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:checked="true">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/FerenhiteToCelciusRB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ferenhite to celcius"
+            android:textColor="#ffffff"
+            android:textStyle="bold">
+
+        </RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/convertBtn"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="converet"
+        android:background="#FFC107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <TextView
+        android:id="@+id/resultTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#ffffff">
+
+    </TextView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/amountET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter amount"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp">
+
+    </EditText>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/dollartotakaRB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="dollar To Taka"
+            android:textSize="14sp">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/takaToDollarRB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="taka To Dollar"
+            android:textSize="14sp">
+        </RadioButton>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/convertBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="convert"
+        android:textSize="16sp">
+
+    </Button>
+    <TextView
+        android:id="@+id/resultTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textStyle="bold">
+    </TextView>
+
+
+</LinearLayout>

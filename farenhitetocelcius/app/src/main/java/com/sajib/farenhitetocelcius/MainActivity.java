@@ -39,12 +39,19 @@ public class MainActivity extends AppCompatActivity {
                     double result = (totalamount - 32)*5/9;
                     if(result<=30 ){
                         IM1.setVisibility(View.VISIBLE);
+                        IM2.setVisibility(View.GONE);
+                        IM4.setVisibility(View.GONE);
                     }
                     else if(result>30 && result <=100){
                         IM2.setVisibility(View.VISIBLE);
+                        IM4.setVisibility(View.GONE);
+                        IM1.setVisibility(View.GONE);
+
                     }
                     else  {
                         IM4.setVisibility(View.VISIBLE);
+                        IM1.setVisibility(View.GONE);
+                        IM2.setVisibility(View.GONE);
                     }
                     resultTV.setText(String.valueOf(result));
 

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:layout_height="match_parent"
+    tools:context=".login">
+    <TextView
+        android:layout_margin="20dp"
+        android:textColor="#F44336"
+        android:background="#34DD3B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click on players photo to show dtails"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center">
+
+    </TextView>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sakibTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sakib"
+            android:textSize="14sp"
+            android:layout_margin="30dp"
+            android:visibility="gone">
+
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/sakibIv"
+            android:layout_margin="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/sakib"
+            android:layout_weight="0.5">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/tamimTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tamim"
+            android:textSize="14sp"
+            android:layout_margin="30dp"
+            android:visibility="gone">
+
+
+        </TextView>
+        <ImageView
+            android:id="@+id/tamimIv"
+            android:layout_margin="20dp"
+            android:layout_width="0dp"
+            android:src="@drawable/tamim"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/mushfiqTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mushfiq"
+            android:textSize="14sp"
+            android:layout_margin="30dp"
+            android:visibility="gone">
+
+
+        </TextView>
+        <ImageView
+            android:id="@+id/mushfiqIv"
+            android:layout_margin="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/mushfiq"
+            android:layout_weight="0.5">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/muztafizTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/muztafiz"
+            android:textSize="14sp"
+            android:layout_margin="30dp"
+            android:visibility="gone">
+
+
+        </TextView>
+        <ImageView
+            android:id="@+id/muztafizIv"
+            android:layout_margin="20dp"
+            android:layout_width="0dp"
+            android:src="@drawable/muztafiz"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

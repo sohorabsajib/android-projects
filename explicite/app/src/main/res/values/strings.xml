@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">explicite</string>
+    <string name="sakib">Full name:	Shakib Al Hasan \n
+Born :	24 March 1987 (age 32)\n
+Magura District, Bangladesh\n
+Batting:	Left-handed\n
+Bowling	Slow left-arm orthodox\n
+Role:	All-rounder </string>
+
+    <string name="tamim">
+        Full name	Tamim Iqbal Khan[1]
+Born	20 March 1989 (age 30)
+Chittagong, Bangladesh
+Height	5 ft 10 in (1.78 m)
+Batting	Left handed
+Bowling	Right arm off-break
+Role	Opening batsman
+
+    </string>
+    <string name="mushfiq">
+        Full name	Mushfiqur Rahim [1]
+Born	9 June 1987 (age 32)
+Bogra, Bangladesh
+Nickname	Mitu [2]
+Batting	Right-handed
+Role	Wicket-keeper, Batsman
+
+    </string>
+    <string name="muztafiz">
+          Full name:	Mustafizur Rahman\n
+Born:	6 September 1995 (age 24)\n
+Hotki Shira, Khulna, Bangladesh\n
+Nickname:	Fizz[1], Cutter master[2]\n
+Height:	1.80 m (5 ft 11 in)\n
+Batting:	Left-handedd\n
+Bowling:	Left-arm fast medium\n
+Role:	Bowler
+
+
+    </string>
+
+
+
+
+
+
+</resources>
